@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.caixa-superior{
+    background-image: url("./dev.png.png");
+    height:100vh;   
+}
+
+.cabecalho{
+ padding-top: 38px;
+ padding-left: 38px;
+   
+    }
+
+    h1{
+        font-size: 58px;
+        color: #FFFFFF ;
+        position:relative ;
+        top:433px;
+        left: 65px  ;
+    }
+
+.titulo-cabecalho{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    display: inline;
+    margin-right: 130px;
+    
+    
+}
+
+.link-cabecalho{
+    font-size: 14px;
+    color: #FFFFFF;
+    display: inline;
+    font-size: 14px;    
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+form{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    float: right;
+    padding: 34px;
+    margin-right: 100px;
+        position: relative;
+        bottom: 70px;
+ 
+}
+
+h3{
+    text-align: center;
+}
+input{
+    display: block;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width:250px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+textarea{
+    display: block;
+    width: 354px;
+    height: 120px;
+    background: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.titulo-form{
+    font-size: 24px;
+    color: #252B42;
+    margin-bottom: 30px;
+
+}
+
+label{
+font-size: 14px;
+    color: #252B42;
+}
+
+button{
+    width: 366px;
+    height: 52px;
+    background: #40BB15;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.titulo-meio{
+    font-size: 40px;
+    color: #252B42;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card{
+   width: 300px;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   border: 1px solid #A9D6FF;
+   display: inline-block;
+
+
+}
+
+
+.titulo-card{
+    background: #219653;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+ul{
+    padding: 20px;
+}
+
+li{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.caixa-central{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.resumo{
+background-color:#228B22;
+}
+
+.titulo-resumo{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+   padding-top: 50px;
+   padding-bottom: 19px;
+}
+
+.paragrafo-resumo{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 20px 50px 50px 20px;
+    
+}
